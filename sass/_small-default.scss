@@ -36,6 +36,8 @@ ul.navigation {
 }
 
 .info {
+    display: flex;
+    flex-direction: row;
     background-color: #f7c945;
 }
 
@@ -45,7 +47,10 @@ ul.navigation {
     color: #fff;
     font-size: 200%;
 }
-
+.blogArticles {
+    display: flex;
+    flex-direction: row;
+}
 .article1 {
     background-image: url('https://via.placeholder.com/300x300?');
     display: block;
