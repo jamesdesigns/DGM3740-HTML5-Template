@@ -13,6 +13,8 @@ header {
     }
     background-color: #f7c945;
 }
+
+
 .menu {
     display: flex;
     flex-direction: row;
@@ -30,11 +32,13 @@ header {
                 text-decoration: none;
             }
         }
-        input[type=search] {
-            width: 10%;
+        input {
+            text-align: right;
+            border-radius: 5px;
         }
-
     }
+
+
 }
 .imgSlider {
     display: flex;
@@ -118,6 +122,13 @@ header {
     .contact {
         width: 32.5%;
         margin-bottom: 3%;
+        a {
+            text-decoration: none;
+            color: #1e2e44;
+        }
+        a:hover, a:active {
+            color: #fff;
+        }
     }
     .newsletter {
         input {
@@ -155,7 +166,7 @@ header {
 }
 
 .copyright {
-    padding:3%;
+    padding:2%;
     text-align: center;
 }
 
