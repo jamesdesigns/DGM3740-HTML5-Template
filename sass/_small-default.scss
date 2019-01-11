@@ -6,33 +6,43 @@ header {
     .telephone {
         float:right;
         color: #fff;
-        margin-top: -25px;
+        margin-top: -35px;
         text-decoration: none;
         margin-right: 3%;
+        font-size: 130%;
     }
     background-color: #f7c945;
 }
-ul.navigation {
+.menu {
     display: flex;
     flex-direction: row;
     background-color: #1e2e44;
-    color: #fff;
-    li {
-        padding-top: 1.5%;
-        padding-right: 1.5%;
-        padding-bottom: 1.5%;
-        padding-left: 3%;
-        a {
-            color: #fff;
-            text-decoration: none;
+    padding-left: 3%;
+    ul.navigation {
+        display: flex;
+        flex-direction: row;
+       
+        color: #fff;
+        li {
+            padding: 6% 10% 6% 0;
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
         }
-    }
-    input[type=search] {
-        width: 10%;
-        padding: 18px 20px;
-        margin: 8px 0;
-    }
+        input[type=search] {
+            width: 10%;
+        }
 
+    }
+}
+.imgSlider {
+    display: flex;
+    justify-content: center;
+    img {
+        width: 100%;
+        margin: 0 3% 3% 3%;
+    }
 }
 
 .icons {
@@ -42,39 +52,53 @@ ul.navigation {
 .blogArticles {
     display: flex;
     flex-direction: row;
-}
-.article1 {
-    background-image: url('https://via.placeholder.com/300x300?');
-    display: block;
-    width: 300px;
-    height: 300px;
-    margin: .5%;
-}
 
-.article2 {
-    background-image: url('https://via.placeholder.com/300x300?');
-    display: block;
-    width: 300px;
-    height: 300px;
-    margin: .5%;
-}
+    .article1 {
+        background-image: url('https://via.placeholder.com/300x300?');
+        display: block;
+        // width: 300px;
+        // height: 300px;
+        width: 25%;
+        height: 300px;
+        margin: .5%;
+        margin-left: 3%;
+        margin-bottom: 3%;
+    }
 
-.article3 {
-    background-image: url('https://via.placeholder.com/300x300?');
-    display: block;
-    width: 300px;
-    height: 300px;
-    margin: .5%;
-}
+    .article2 {
+        background-image: url('https://via.placeholder.com/300x300?');
+        display: block;
+        // width: 300px;
+        // height: 300px;
+        width: 25%;
+        height: 300px;
+        margin: .5%;
+        margin-bottom: 3%;
+    }
 
-.article4 {
-    background-image: url('https://via.placeholder.com/300x300?');
-    display: block;
-    width: 300px;
-    height: 300px;
-    margin: .5%;
-}
+    .article3 {
+        background-image: url('https://via.placeholder.com/300x300?');
+        display: block;
+        // width: 300px;
+        // height: 300px;
+        width: 25%;
+        height: 300px;
+        margin: .5%;
+        margin-bottom: 3%;
+    }
 
+    .article4 {
+        background-image: url('https://via.placeholder.com/300x300?');
+        display: block;
+        // width: 300px;
+        // height: 300px;
+        width: 25%;
+        height: 300px;
+        margin: .5%;
+        margin-right: 3%;
+        margin-bottom: 3%;
+    }
+}
 
 .info {
     display: flex;
@@ -83,6 +107,10 @@ ul.navigation {
     background-color: #f7c945;
     padding: 0 3%;
     h2 {
+    /* Clearfix Solution */
+    // .clearfix {
+    //     overflow: hidden;
+    // }
         margin-top: 4%;
         margin-bottom: 3%;
         font-size: 135%;
@@ -92,6 +120,20 @@ ul.navigation {
         margin-bottom: 3%;
     }
     .newsletter {
+        input {
+            width: 97%;
+            padding: 3% 1%;
+            border-radius: 5px;
+            margin-top: 4%;
+          }
+        button.custom {
+            width: 100%;
+            padding: 3% 1%;
+            margin-top: 2%;
+            border-radius: 5px;
+            font-size: 110%;
+            background-color: #ccc;
+        }  
         width: 32.5%;
         margin-bottom: 3%;
         margin-right: 2%;
@@ -107,17 +149,13 @@ ul.navigation {
     background-color: #1e2e44;
     display:flex;
     flex-direction: row;
+    justify-content: center;
     background-color: #1e2e44;
     padding: 15px;
-    .icons {
-     margin: 0 auto;  
-     img {
-
-     }
-    }
 }
 
 .copyright {
-    padding:1%;
+    padding:3%;
     text-align: center;
 }
+
