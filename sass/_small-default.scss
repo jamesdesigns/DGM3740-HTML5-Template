@@ -35,14 +35,6 @@ ul.navigation {
 
 }
 
-.info {
-    display: flex;
-    flex-direction: row;
-    background-color: #f7c945;
-}
-
-
-
 .icons {
     color: #fff;
     font-size: 200%;
@@ -82,6 +74,29 @@ ul.navigation {
     height: 300px;
     margin: .5%;
 }
+
+
+.info {
+    display: flex;
+    flex-direction: row;
+    background-color: #f7c945;
+    margin: 0 auto;
+    padding: 0 3%;
+    h2 {
+        margin-bottom: 3%;
+        font-size: 135%;
+    }
+    .contact {
+        flex-grow: 1;
+    }
+    .newsletter {
+        flex-grow: 1;
+    }
+    .cruiseInfo {
+        flex-grow: 1;
+    }
+}
+
 
 .social {
     background-color: #1e2e44;
