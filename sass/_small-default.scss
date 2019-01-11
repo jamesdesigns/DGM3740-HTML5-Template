@@ -26,7 +26,7 @@ header {
        
         color: #fff;
         li {
-            padding: 6% 10% 6% 0;
+            padding: 3% 10% 3% 0;
             a {
                 color: #fff;
                 text-decoration: none;
@@ -35,6 +35,10 @@ header {
         input {
             text-align: right;
             border-radius: 5px;
+        }
+        .searchIcon {
+            font-size: 125%;
+            padding: 3% 10% 3% 1%;
         }
     }
 
@@ -124,7 +128,7 @@ header {
         margin-bottom: 3%;
         a {
             text-decoration: none;
-            color: #1e2e44;
+            color: #000;
         }
         a:hover, a:active {
             color: #fff;
