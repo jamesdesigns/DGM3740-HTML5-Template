@@ -1,0 +1,98 @@
+body {
+    background-color: #fff;
+    font-family: $defaultFont;
+}
+header {
+    .telephone {
+        float:right;
+        color: #fff;
+        margin-top: -25px;
+        text-decoration: none;
+        margin-right: 3%;
+    }
+    background-color: #f7c945;
+}
+ul.navigation {
+    display: flex;
+    flex-direction: row;
+    background-color: #1e2e44;
+    color: #fff;
+    li {
+        padding-top: 1.5%;
+        padding-right: 1%;
+        padding-bottom: 1.5%;
+        padding-left: 3%;
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+    input[type=search] {
+        width: 10%;
+        padding: 18px 20px;
+        margin: 8px 0;
+    }
+
+}
+
+.info {
+    background-color: #f7c945;
+}
+
+
+
+.icons {
+    color: #fff;
+    font-size: 200%;
+}
+
+.article1 {
+    background-image: url('https://via.placeholder.com/300x300?');
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: .5%;
+}
+
+.article2 {
+    background-image: url('https://via.placeholder.com/300x300?');
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: .5%;
+}
+
+.article3 {
+    background-image: url('https://via.placeholder.com/300x300?');
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: .5%;
+}
+
+.article4 {
+    background-image: url('https://via.placeholder.com/300x300?');
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: .5%;
+}
+
+.social {
+    background-color: #1e2e44;
+    display:flex;
+    flex-direction: row;
+    background-color: #1e2e44;
+    padding: 15px;
+    .icons {
+     margin: 0 auto;  
+     img {
+
+     }
+    }
+}
+
+.copyright {
+    padding:1%;
+    text-align: center;
+}
