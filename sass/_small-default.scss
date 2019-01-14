@@ -31,13 +31,15 @@ header {
     background-color: #e8e8e8;
     padding-left: 3%;
     margin-top:-2px;
+
     ul.navigation {
         display: flex;
         flex-direction: row;
+        font-size: 90%;
        
         color: #fff;
         li {
-            margin-top: 3%;
+            margin-top: 3.5%;
             margin-right: 8%;
             a {
               
