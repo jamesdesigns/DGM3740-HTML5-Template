@@ -10,6 +10,7 @@ header {
         text-decoration: none;
         margin-right: 3%;
         font-size: 130%;
+        font-family: 'Crimson Text', serif;
     }
     background-color: #005b97;
 }
@@ -26,8 +27,11 @@ header {
        
         color: #fff;
         li {
-            padding: 3% 10% 3% 0;
+            margin-top: 3%;
+            margin-right: 8%;
             a {
+              
+                padding: 3% 10% 3% 0;
                 color: #2b2b2b;
                 text-decoration: none;
             }
@@ -162,15 +166,22 @@ header {
 
 
 .social {
-    background-color: #005b97;
+    background-color: #fff;
     display:flex;
     flex-direction: row;
     justify-content: center;
     padding: 15px;
+    font-size: 120%;
+    .pad {
+        color: #005b97;
+        padding-right: 10px;
+    }
 }
 
 .copyright {
     padding:2%;
     text-align: center;
+    background-color: #005b97;
+    color: #fff;
 }
 
