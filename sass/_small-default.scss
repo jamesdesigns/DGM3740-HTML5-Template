@@ -3,13 +3,20 @@ body {
     font-family: $defaultFont;
 }
 header {
+
+    #Logo {
+        margin-left: 3%;
+        img {
+            
+        }
+    }
     .telephone {
         float:right;
         color: #fff;
-        margin-top: -35px;
+        margin-top: -70px;
         text-decoration: none;
         margin-right: 3%;
-        font-size: 130%;
+        font-size: 150%;
         font-family: 'Crimson Text', serif;
     }
     background-color: #005b97;
@@ -54,7 +61,7 @@ header {
     justify-content: center;
     img {
         width: 100%;
-        margin: 0 3% 3% 3%;
+        margin: 0 3% 6% 3%;
     }
 }
 
