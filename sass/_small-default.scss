@@ -2,6 +2,7 @@ body {
     background-color: #fff;
     font-family: $defaultFont;
     color: #484848;
+    line-height: 1.4;
 }
 
 header {
@@ -18,7 +19,7 @@ header {
         margin-top: -65px;
         text-decoration: none;
         margin-right: 3%;
-        font-size: 140%;
+        font-size: 130%;
         font-family: 'Crimson Text', serif;
     }
     background-color: #005b97;
@@ -28,13 +29,15 @@ header {
 .menu {
     display: flex;
     flex-direction: row;
+    align-content: space-between;
     background-color: #e8e8e8;
     padding-left: 3%;
-    margin-top:-2px;
+    margin-top:-6px;
 
     ul.navigation {
-        display: flex;
-        flex-direction: row;
+        // display: flex;
+        // flex-direction: row;
+        // align-content: space-between;
         font-size: 90%;
        
         color: #fff;
@@ -48,6 +51,10 @@ header {
                 text-decoration: none;
             }
         }
+
+    }
+    .mySearch {
+        // align-content: space-between;
         input {
             text-align: right;
             border-radius: 5px;
@@ -58,9 +65,8 @@ header {
             color: #2b2b2b;
         }
     }
-
-
 }
+
 .imgSlider {
     display: flex;
     justify-content: center;
@@ -224,5 +230,6 @@ header {
     text-align: center;
     background-color: #005b97;
     color: #cce6ff;
+    font-size: 95%;
 }
 
