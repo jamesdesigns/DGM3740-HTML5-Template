@@ -15,7 +15,7 @@
     <header><div id="Logo"><img src="img/CabotCruises-Logo.png" alt="Cabot Cruises Logo"><img src="img/cabot-cruises-logo2.gif" alt="Cabot Cruises">
         <!-- <img src="https://via.placeholder.com/120x120?" alt="Cabot Cruises Logo"> --></div><a class="telephone" href="tel:18665771000">1-866-577-1000</a></header>
     <nav>
-        <div class="menu"> 
+        <!-- <div class="menu"> 
             <ul class="navigation">
                 <li><a class="active" href="#">HOME</a></li>
                 <li><a href="#">CRUISES</a></li>
@@ -26,7 +26,22 @@
                 <input type="search" id="site-search" name="q" aria-label="Search...">  
                 <span class="fa fa-search searchIcon"></span> 
             </div>
-        </div>
+        </div> -->
+
+        <div id="myNav" class="overlay">
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>      
+                <!-- Overlay content -->
+                <div class="overlay-content">
+                  <a href="#">HOME</a>
+                  <a href="#">CRUISES</a>
+                  <a href="#">AGENTS</a>
+                  <a href="#">BOOK</a>
+                </div>
+              </div>
+              <!-- Use any element to open/show the overlay navigation menu -->
+              <span onclick="openNav()">&#9776; Menu</span>
+
 
     </nav>
     <main>
@@ -98,5 +113,14 @@
     </footer>
     </main>
     
+    <script>
+            function openNav() {
+              document.getElementById("myNav").style.width = "100%";
+            }
+            
+            function closeNav() {
+              document.getElementById("myNav").style.width = "0%";
+            }
+            </script>    
 </body>
 </html>
