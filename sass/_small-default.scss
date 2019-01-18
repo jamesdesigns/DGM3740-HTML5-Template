@@ -85,14 +85,14 @@ input[type=search]:focus {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: #F5F5F5; /* was #818181  */
     display: block; /* Display block instead of inline */
     transition: 0.3s; /* Transition effects on hover (color) */
   }
   
   /* When you mouse over the navigation links, change their color */
   .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+    color: #818181;  /* was #f1f1f1   */
   }
   
   /* Position the close button (top right corner) */
@@ -247,7 +247,7 @@ input[type=search]:focus {
             margin-top: 2%;
             border-radius: 5px;
             font-size: 110%;
-            background-color: #ccc;
+            background-color: #F8B500;
         }  
         width: 32.5%;
         margin-bottom: 3%;
