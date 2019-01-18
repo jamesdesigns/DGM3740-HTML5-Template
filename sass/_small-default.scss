@@ -25,9 +25,16 @@ header {
     background-color: #005b97;
 }
 
+input {
+    font-size: 120%;
+}
 
+input[type=search]:focus {
+    width: 290px;
+    background-color: #fff;
+    border-color: #66CC75;
 
-
+}
 
 .navList {
     font-size: 130%;
@@ -36,8 +43,12 @@ header {
     background-color: #F8B500;
     .customMenu {
         margin-left: 2%;
+
     }
 }
+
+
+
 /* THis is new CSS */@at-root
 
 /* The Overlay (background) */
