@@ -132,6 +132,12 @@ input[type=search]:focus {
     color: #fff;
     font-size: 200%;
 }
+.newArticles {
+    max-width: 1200px;
+    margin:0 auto;
+    font-size: 150%;
+    color:#005b97;
+}
 .blogArticles {
     display: flex;
     flex-direction: row;
