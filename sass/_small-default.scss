@@ -39,11 +39,16 @@ input[type=search]:focus {
 
 }
 
+nav {
+    background-color: #F8B500;
+}
 .navList {
     font-size: 130%;
     color: #005b97;
     padding: 1% 0;
     background-color: #F8B500;
+    max-width: 1200px;
+    margin: 0 auto;
     .customMenu {
         margin-left: 2%;
 
