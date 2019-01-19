@@ -6,7 +6,8 @@ body {
 }
 
 header {
-
+    max-width: 1200px;
+    margin: 0 auto;
     #Logo {
         height: 101px;
         img {
@@ -118,6 +119,8 @@ input[type=search]:focus {
 .imgSlider {
     display: flex;
     justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
     img {
         width: 100%;
         margin: 0 3% 6% 3%;
@@ -131,7 +134,6 @@ input[type=search]:focus {
 .blogArticles {
     display: flex;
     flex-direction: row;
-
     .article1 {
         background: url(/Users/jameshooper/Desktop/UVU/DGM3740/DGM3740-HTML5-Template/img/luxury.jpg) no-repeat center; 
 
@@ -147,6 +149,7 @@ input[type=search]:focus {
         padding-bottom: 5%;
         margin-right: 5%;
         opacity: .75;
+        
         .description {
             // background-color: #F8B500;
             background-color:rgba(0,0,0,0.5);
