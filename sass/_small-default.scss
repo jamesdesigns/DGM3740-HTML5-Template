@@ -49,7 +49,7 @@ nav {
     max-width: 1200px;
     margin: 0 auto;
     .customMenu {
-        margin-left: 2%;
+        margin-left: 1%;
 
     }
 }
@@ -67,9 +67,8 @@ nav {
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
-    background-color: #013B5B;
-    /* background-color: rgb(0,0,0);  Black fallback color */
-    /* background-color: rgba(0,0,0, 0.9);  Black w/opacity */
+    background-color: rgb(1,59,91);
+    background-color: rgba(1,59,91, 0.9);
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
   }
@@ -128,7 +127,7 @@ nav {
     margin: 0 auto;
     img {
         width: 100%;
-        margin: 0 3% 6% 3%;
+        margin: 0 0 6% 0;
     }
 }
 
@@ -144,30 +143,33 @@ nav {
 }
 .blogArticles {
     display: flex;
-    flex-direction: row;
+    // flex-direction: row;
+    flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
     .article1 {
         background: url(/Users/jameshooper/Desktop/UVU/DGM3740/DGM3740-HTML5-Template/img/luxury.jpg) no-repeat center; 
 
         display: block;
-        width: 300px;
+        width: 295px;
         // height: 300px;
         // width: 25%;
-        height: 300px;
+        height: 295px;
         // margin: .5%;
-        padding-top: 2.5%;
         margin-bottom: 3%;
         padding-bottom: 5%;
-        margin-right: 5%;
+        margin-right: 5px;
         opacity: .75;
+        a {
+            text-decoration: none;
+        }
         
         .description {
             // background-color: #F8B500;
             background-color:rgba(0,0,0,0.5);
             padding: 12px;
             z-index: 9999;
-            margin-top: 15px;
+            margin-top: 27px;
             color: #fff;
             h2 {
                 font-size: 160%;
@@ -192,22 +194,24 @@ nav {
 
     .article2 {
        background: url(/Users/jameshooper/Desktop/UVU/DGM3740/DGM3740-HTML5-Template/img/food.jpg) no-repeat center;
-        width: 300px;
+        width: 295px;
         // height: 300px;
         // width: 25%;
-        height: 300px;
+        height: 295px;
         // margin: .5%;
-        padding-top: 2.5%;
         margin-bottom: 3%;
         padding-bottom: 5%;
-        margin-right: 5%;
+        margin-right: 5px;
         opacity: .75;
+        a {
+            text-decoration: none;
+        }
         .description {
             // background-color: #F8B500;
             background-color:rgba(0,0,0,0.5);
             padding: 12px;
             z-index: 9999;
-            margin-top: 15px;
+            margin-top: 27px;
             color: #fff;
             h2 {
                 font-size: 160%;
@@ -230,25 +234,27 @@ nav {
     }
 
     .article3 {
-         background: url(/Users/jameshooper/Desktop/UVU/DGM3740/DGM3740-HTML5-Template/img/snorkeler-with-fish.jpg)no-repeat center;
-        width: 300px;
+        background: url(/Users/jameshooper/Desktop/UVU/DGM3740/DGM3740-HTML5-Template/img/snorkeler-with-fish.jpg)no-repeat center;
+        width: 295px;
         // height: 300px;
         // width: 25%;
-        height: 300px;
+        height: 295px;
         // margin: .5%;
-        padding-top: 2.5%;
         padding-left: 2.5%;
         margin-bottom: 3%;
         padding-bottom: 5%;
         padding-left: 1px;
-        margin-right: 5%;
+        margin-right: 5px;
         opacity: .75;
+        a {
+            text-decoration: none;
+        }
         .description {
             // background-color: #F8B500;
             background-color:rgba(0,0,0,0.5);
             padding: 12px;
             z-index: 9999;
-            margin-top: 15px;
+            margin-top: 27px;
             color: #fff;
             h2 {
                 font-size: 160%;
@@ -273,23 +279,25 @@ nav {
 
     .article4 {
         background: url(/Users/jameshooper/Desktop/UVU/DGM3740/DGM3740-HTML5-Template/img/waterfall.jpg) no-repeat center;
-        width: 300px;
+        width: 295px;
         // height: 300px;
         // width: 25%;
-        height: 300px;
+        height: 295px;
         // margin: .5%;
-        padding-top: 2.5%;
         padding-left: 2.5%;
         margin-bottom: 3%;
         padding-bottom: 5%;
         padding-left: 1px;
         opacity: .75;
+        a {
+            text-decoration: none;
+        }
         .description {
             // background-color: #F8B500;
             background-color:rgba(0,0,0,0.5);
             padding: 12px;
             z-index: 9999;
-            margin-top: 15px;
+            margin-top: 27px;
             color: #fff;
             h2 {
                 font-size: 160%;
@@ -316,24 +324,22 @@ footer {
 
 .info {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-
+    // flex-direction: row;
+    flex-wrap: wrap;
+    // justify-content: center;
     padding: 0 3% 3%;    
     max-width: 1200px;
     margin: 0 auto;
+
     h2 {
-    /* Clearfix Solution */
-    // .clearfix {
-    //     overflow: hidden;
-    // }
         margin-top: 4%;
         margin-bottom: 3%;
         font-size: 135%;
         font-weight: 600;
     }
     .contact {
-        width: 32.5%;
+        // width: 32.5%;
+        width: 375px;
         margin-bottom: 3%;
         a {
             text-decoration: none;
@@ -344,6 +350,8 @@ footer {
         }
     }
     .newsletter {
+        width: 375px;
+
         input {
             width: 97%;
             padding: 3% 1%;
@@ -366,7 +374,8 @@ footer {
         margin-right: 2%;
     }
     .cruiseInfo {
-        width: 32.5%;
+        // width: 32.5%;
+        width: 375px;
 
     }
 }
@@ -391,5 +400,12 @@ footer {
     background-color: #005b97;
     color: #cce6ff;
     font-size: 95%;
+    a {
+        text-decoration: none;
+        color: #cce6ff;
+    }
+    a:hover {
+        color: #A9A9A9;
+    }
 }
 

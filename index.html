@@ -18,8 +18,10 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <header><div id="Logo"><img src="img/CabotCruises-Logo.png" alt="Cabot Cruises Logo"><img src="img/cabot-cruises-logo2.gif" alt="Cabot Cruises">
-        <!-- <img src="https://via.placeholder.com/120x120?" alt="Cabot Cruises Logo"> --><a class="telephone" href="tel:18665771000">1-866-577-1000</a></div></header>
+    <header><div id="Logo">
+           <!-- <img srcset="img/CC-Logo-SM.jpg, img/CC-Logo-MD.jpg 1.5x, img/CC-Logo-LG.jpg 2x" src="img/CC-Logo-LG.jpg" alt="cabotcruises"> -->
+            <img src="img/CC-Logo-LG.jpg" alt="image">
+            <a class="telephone" href="tel:18665771000">1-866-577-1000</a></div></header>
     <nav>
         <!-- <div class="menu"> 
             <ul class="navigation">
@@ -41,6 +43,17 @@
                 <ul class="overlay-content">
                   <li><a href="#">HOME</a></li>
                   <li><a href="#">CRUISES</a></li>
+
+                  <!-- <div class="dropdown">
+                        <button class="dropbtn">Agents 
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="#">Tom Johnsom</a>
+                          <a href="#">Kathy Smith</a>
+                        </div>
+                      </div>  -->
+
                   <li><a href="#">AGENTS</a></li>
                   <ul>
                       <li><a href="#">Robert Jensen</a></li>
@@ -57,20 +70,16 @@
 
     </nav>
     <main>
-    <section>
+    <section data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
          <!-- Add Image Slider>  -->
          <div class="imgSlider">
-            <div><img src="img/yacht1.jpg" alt="image"></div>
-            <div><img src="img/yacht2.jpg" alt="image"></div>
-            <div><img src="img/yacht3.jpg" alt="image"></div>
-            <div><img src="img/yacht4.jpg" alt="image"></div>
+            <div>
+            <img src="img/yacht1.jpg" alt="image">
+            </div>
+            <!-- <div><img src="img/yacht2.jpg" alt="image"></div> -->
+            <!-- <div><img src="img/yacht3.jpg" alt="image"></div> -->
+            <!-- <div><img src="img/yacht4.jpg" alt="image"></div> -->
           </div>
-
-
-
-        <!-- <div class="imgSlider">
-            <img src="img/cabotcruise1.jpg" width="1200" height="300" alt="image">
-        </div> -->
     </section>
     <section>
         <!-- Add Recent Blog Articles -->
@@ -81,12 +90,12 @@
         </div> -->
        
         <div class="article1">
-            <!-- <a href="#"> -->
+            <a href="#">
             <div class="description"><h2>Patio Dining</h2></div>
             <div class="date">
                 <time datetime="2018-03-16 20:00">March 16, 2018</time>
             </div>
-        <!-- </a> -->
+        </a>
         </div>
         <div class="article2">
             <a href="#">
@@ -119,8 +128,8 @@
                 <div class="address">
                 <h3>Cabot Cruises</h3>
                 <address>
-                    23 South Main St. Suite 16<br>
-                    Lexington, VA 24450
+                    500 South Collins Ave. Suite 100<br>
+                    Miami, FL 33410
                 </address>
                 <br>
                 <h3>Phone:</h3>
@@ -140,7 +149,7 @@
                 <h2>Why Cabot Cruises</h2>
                 <p>Cabot Cruises is a travel agency providing the best cruise deals on our online travel website. We can help you with all inclusive vacations including discounted cruises.</p>
                 <br>
-                <p>We do not sell travel to residents of Delaware, Iowa, Florida, Hawaii and Washington state because those states are just wierd. If you are a resident of one of these states, call your congressman and tell them to change the regulations.</p></div>
+                <p>We do not sell travel to residents of Delaware, Iowa, Alaska, and Hawaii because those states are just wierd. If you are a resident of one of these states, call your congressman and tell them to change the regulations.</p></div>
         </div>
         <div class="social">
             <div class="icons">
@@ -153,7 +162,7 @@
             </div>
         </div>
         <div class="copyright">
-                &#169; 2019 James Hooper | www.artistjameshooper.com
+                &#169; 2019 James Hooper | <a href="http://www.artistjameshooper.com" target="_blank">www.artistjameshooper.com</a>
         </div>
     </footer>
     </main>
