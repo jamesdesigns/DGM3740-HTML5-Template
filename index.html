@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
+
+  <!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick-theme.css"/>
+    
     <script src="main.js"></script>
 </head>
 <body>
@@ -37,8 +43,8 @@
                   <li><a href="#">CRUISES</a></li>
                   <li><a href="#">AGENTS</a></li>
                   <ul>
-                      <li><a href="#">Robert Whitelaw</a></li>
-                      <li><a href="#">Kathy Fetke</a></li>
+                      <li><a href="#">Robert Jensen</a></li>
+                      <li><a href="#">Kathy Smith</a></li>
                   </ul>
                 
                   <li><a href="#">BOOK</a></li>
@@ -53,9 +59,18 @@
     <main>
     <section>
          <!-- Add Image Slider>  -->
-        <div class="imgSlider">
+         <div class="imgSlider">
+            <div><img src="img/yacht1.jpg" alt="image"></div>
+            <div><img src="img/yacht2.jpg" alt="image"></div>
+            <div><img src="img/yacht3.jpg" alt="image"></div>
+            <div><img src="img/yacht4.jpg" alt="image"></div>
+          </div>
+
+
+
+        <!-- <div class="imgSlider">
             <img src="img/cabotcruise1.jpg" width="1200" height="300" alt="image">
-        </div>
+        </div> -->
     </section>
     <section>
         <!-- Add Recent Blog Articles -->
@@ -151,6 +166,14 @@
             function closeNav() {
               document.getElementById("myNav").style.width = "0%";
             }
-            </script>    
+    </script>  
+      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="slick/slick.min.js"></script>  
+      <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+ $('.imgSlider').slick();
+    </script>
 </body>
 </html>
