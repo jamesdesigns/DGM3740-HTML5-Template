@@ -51,7 +51,9 @@ header {
             text-decoration: none;
             color: #005b97;
             font-size: 130%;
-            font-family: 'Crimson Text', serif;
+            font-family: $defaultFont;
+            font-weight: bold;
+            margin: 0 auto;
         }
 
       }
