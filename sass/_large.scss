@@ -1,0 +1,13 @@
+.info {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "contact newsletter cruiseInfo";
+        grid-column-gap: 20px;
+}
+
+.blogArticles {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "article1 article2 article3 article4";
+        grid-column-gap: 10px;
+}
