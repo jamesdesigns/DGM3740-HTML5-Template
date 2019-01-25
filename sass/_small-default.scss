@@ -232,10 +232,7 @@ nav {
 // End of New CSS slider
 //
 
-.icons {
-    color: #fff;
-    font-size: 200%;
-}
+
 .newArticles {
     max-width: 1200px;
     margin:0 auto;
@@ -482,9 +479,16 @@ footer {
     justify-content: center;
     padding: 25px;
     font-size: 120%;
+    .icons {
+        color: #fff;
+        font-size: 200%;
+    }
     .pad {
         color: #DCDCDC;
         padding-right: 10px;
+    }
+    .pad:hover {
+        color: #F8B500;
     }
 }
 
