@@ -21,7 +21,8 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <header><div id="Logo">
+    <header>
+        <div id="Logo">
            <!-- <img srcset="img/CC-Logo-SM.jpg, img/CC-Logo-MD.jpg 1.5x, img/CC-Logo-LG.jpg 2x" src="img/CC-Logo-LG.jpg" alt="cabotcruises"> -->
            <picture>
                 <source srcset="img/CC-Logo-SM.jpg" media="(max-width:35em)">
@@ -30,7 +31,10 @@
                 <img srcset="img/CC-Logo-LG.jpg" alt="My Default image">
            </picture>
            <!-- <img src="img/CC-Logo-LG.jpg" alt="image"> -->
-            <a class="telephone" href="tel:18665771000">1-866-577-1000</a></div></header>
+            <!-- <a class="telephone" href="tel:18665771000">1-866-577-1000</a> -->
+        </div>
+    </header>
+
     <nav>
 
             
@@ -40,7 +44,16 @@
             <div class="topnav">
                     <a class="active" href="#home">Home</a>
                     <a href="#about">Cruises</a>
-                    <a href="#contact">Agents</a>
+                    <div class="dropdown">
+                            <button class="dropbtn">Agents 
+                              <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                              <a href="#">Jay Miller</a>
+                              <a href="#">Lori Reynolds</a>
+                            </div>
+                          </div> 
+                    <!-- <a href="#contact">Agents</a> -->
                     <a href="#contact">Book</a>
                     <div class="search-container">
                       <form action="/action_page.php">
