@@ -1,3 +1,8 @@
+
+    .telephone {
+        margin-right: 2%;
+    }
+
 .info {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
@@ -13,3 +18,4 @@
         "article3 article4";
         grid-column-gap: 10px;
 }
+

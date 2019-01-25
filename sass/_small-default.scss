@@ -19,6 +19,7 @@ header {
         float:right;
         color: #fff;
         margin-top: 35px;
+        margin-right: 2%;
         text-decoration: none;
         font-size: 130%;
         font-family: 'Crimson Text', serif;
@@ -172,7 +173,7 @@ nav {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.05);
+//   background-color: rgba(0,0,0,0.05);
 }
 
 /* Caption text */
