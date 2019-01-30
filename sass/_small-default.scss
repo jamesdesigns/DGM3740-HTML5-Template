@@ -230,6 +230,8 @@ nav {
 
 .topnav .search-container button:hover {
   background: #ccc;
+  display: block;
+  width: 30%;
 }
 // NEW ADDED DROPDOWN STYLES
 .dropdown {
@@ -256,6 +258,8 @@ nav {
   .dropdown:hover .dropbtn {
     background-color: #FCCB51;
     color: black;
+    display:inherit;
+    width: 100%;
   }
 
   .dropdown-content {
@@ -282,6 +286,7 @@ nav {
   
   .dropdown:hover .dropdown-content {
     display: block;
+    width: 100%;
   }
 
 // END OF NEW ADDED DROPDOWN STYLES
