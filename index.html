@@ -46,8 +46,9 @@
 
     <nav>
 
+
             
-<!-- NEW UPDATED RESPONSIVE MENU -->
+<!-- Last UPDATED RESPONSIVE MENU -->
 
 
             <div class="topnav" id="myTopNav">
@@ -64,7 +65,6 @@
                               <a href="#">Lori Reynolds</a>
                             </div>
                     </div>
-                    <!-- <a href="#contact">Agents</a> -->
                     <a href="#contact">Book</a>
           
                     <div class="search-container">
@@ -77,7 +77,7 @@
                   </div>
 
 
-<!-- END OF NEW RESPONSIVE MENU -->
+<!-- LASR OF NEW RESPONSIVE MENU -->
 
 
 
@@ -111,7 +111,7 @@
                 </ul>
               </div> -->
               <!-- Use any element to open/show the overlay navigation menu -->
-             <!-- <div class="navList"><span class="customMenu" onclick="openNav()">&#9776; Menu</span></div> -->
+             <!-- <div class="navList"><span class="customMenu" onclick="openNav()">&#9776; Menu</span></div>
 
 
     </nav>
@@ -126,7 +126,7 @@
           <div class="numbertext">1 / 4</div>
                 <picture class="cruise">
                     <!-- <source srcset="img/yacht1-sm.jpg" media="(max-width:35em)"> -->
-                    <source srcset="img/yacht1-sm.jpg" media="(max-width:560px)">    
+                    <source srcset="img/yacht1-sm.jpg" media="(max-width:45em)">    
                     <source srcset="img/yacht1.jpg">
                     <img srcset="img/yacht1.jpg" alt="My Default image">
                 </picture>
@@ -135,7 +135,7 @@
         <div class="mySlides fade">
           <div class="numbertext">2 / 4</div>
           <picture class="cruise">
-                <source srcset="img/yacht2-sm.jpg" media="(max-width:35em)">
+                <source srcset="img/yacht2-sm.jpg" media="(max-width:350px)">
                 <source srcset="img/yacht2.jpg">
                 <img srcset="img/yacht2.jpg" alt="My Default image">
             </picture>
@@ -144,7 +144,7 @@
         <div class="mySlides fade">
           <div class="numbertext">3 / 4</div>
           <picture class="cruise">
-                <source srcset="img/yacht3-sm.jpg" media="(max-width:35em)">
+                <source srcset="img/yacht3-sm.jpg" media="(max-width:350px)">
                 <source srcset="img/yacht3.jpg">
                 <img srcset="img/yacht3.jpg" alt="My Default image">
             </picture>
@@ -152,7 +152,7 @@
         <div class="mySlides fade">
             <div class="numbertext">4 / 4</div>
             <picture class="cruise">
-                    <source srcset="img/yacht4-sm.jpg" media="(max-width:35em)">
+                    <source srcset="img/yacht4-sm.jpg" media="(max-width:350px)">
                     <source srcset="img/yacht4.jpg">
                     <img srcset="img/yacht4.jpg" alt="My Default image">
                 </picture>
@@ -301,6 +301,16 @@
             }
             </script>
             <script type="application/ld+json" src="js/destinations.js"></script>
+            <script>
+                function myFunction() {
+                  var x = document.getElementById("myTopnav");
+                  if (x.className === "topnav") {
+                    x.className += " responsive";
+                  } else {
+                    x.className = "topnav";
+                  }
+                }
+                </script>
 
 </body>
 </html>
