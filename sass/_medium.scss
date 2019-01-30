@@ -3,6 +3,11 @@
     //     margin-right: 2%;
     // }
 
+    .topnav .search-container button {
+        float: right;
+        min-width:0;
+      }
+
 .info {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
