@@ -206,6 +206,10 @@ nav {
 
 // end of newly added
 
+.topnav .icon {
+    // display: none;
+}
+
 .topnav .search-container {
   float: right;
 }
@@ -291,6 +295,11 @@ nav {
 @media screen and (max-width: 600px) {
   .topnav .search-container {
     float: none;
+  }
+
+  .icon { 
+      float:right;
+      display: block;
   }
 
   .topnav a, .topnav input[type=text], .topnav .search-container button {
