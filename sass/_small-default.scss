@@ -511,10 +511,11 @@ nav {
 // End of New CSS slider
 //
 
-
 .newArticles {
     max-width: 1200px;
     margin:0 auto;
+    padding-top: 3%;
+    padding-bottom: 25px;
     font-size: 190%;
     color:#005b97;
 }
@@ -685,8 +686,8 @@ nav {
 footer {
     // background-color: #e8e8e8;
     background: #fff;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #DCDCDC, #fff);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #DCDCDC, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to bottom, #C8C8C8, #fff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #C8C8C8, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 

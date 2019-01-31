@@ -8,6 +8,11 @@
         min-width:0;
       }
 
+      .dropdown-content {
+        min-width: 200px;
+      }
+
+
 .info {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
@@ -24,6 +29,7 @@
         "article3 article4";
         grid-column-gap: 10px;
 }
+
 
 .copyright {
     padding:1.5%;
