@@ -309,7 +309,6 @@ nav {
     padding: 14px;
   }
 
- 
   .topnav input[type=text] {
     border: 1px solid #ccc;  
   }
@@ -321,99 +320,6 @@ nav {
     text-align: left;
   }
 }
-
-
-
-
-// This is the END of the UPDATED CSS MENU
-
-
-
-
-
-
-/* THis is the nice overlay CSS menu navigation */@at-root
-
-/* The Overlay (background) */
-// .overlay {
- 
-//     height: 100%;
-//     width: 0;
-//     position: fixed; 
-//     z-index: 1; 
-//     left: 0;
-//     top: 0;
-//     background-color: rgb(1,59,91);
-//     background-color: rgba(1,59,91, 0.9);
-//     overflow-x: hidden; 
-//     transition: 0.5s; 
-//   }
-  
-  /* Position the content inside the overlay */
-//   .overlay-content {
-//     position: relative;
-//     top: 25%;
-//     width: 100%; 
-//     text-align: center; 
-//     margin-top: 30px; 
-//     #searching {
-//         border-radius: 15px;
-//         padding: 10px;
-//     }
-//   }
-  
-  /* The navigation links inside the overlay */
-//   .overlay a {
-//     padding: 8px;
-//     text-decoration: none;
-//     font-size: 36px;
-//     color: #F5F5F5; 
-//     display: block; 
-//     transition: 0.3s; 
-//   }
-  
-  /* When you mouse over the navigation links, change their color */
-//   .overlay a:hover, .overlay a:focus {
-//     color: #818181;  /* was #f1f1f1   */
-//   }
-  
-  /* Position the close button (top right corner) */
-//   .overlay .closebtn {
-//     position: absolute;
-//     top: 20px;
-//     right: 45px;
-//     font-size: 60px;
-//   }
-  
-  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-//   @media screen and (max-height: 450px) {
-//     .overlay a {font-size: 20px}
-//     .overlay .closebtn {
-//       font-size: 40px;
-//       top: 15px;
-//       right: 35px;
-//     }
-//   }
-
-
-// End of the nice Overlay css menu 
-
-
-
-// Old css slider
-// .imgSlider {
-//     display: flex;
-//     justify-content: center;
-//     max-width: 1200px;
-//     margin: 0 auto;
-//     img {
-//         width: 100%;
-//         margin: 0 0 6% 0;
-//     }
-// }
-
-
-
 
 
 // NEW CSS Slider
@@ -529,7 +435,7 @@ nav {
     padding-top: 3%;
     padding-bottom: 25px;
     font-size: 190%;
-    color:#005b97;
+    color:#484848;
 }
 .blogArticles {
     display: grid;
@@ -696,11 +602,9 @@ nav {
 }
 
 footer {
-    // background-color: #e8e8e8;
     background: #fff;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #C8C8C8, #fff);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #C8C8C8, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: -webkit-linear-gradient(to bottom, #C8C8C8, #fff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #C8C8C8, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .info {
