@@ -14,15 +14,6 @@
     min-width: 200px;
   }
 
-.info {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-        "contact newsletter cruiseInfo";
-        grid-column-gap: 20px;
-        max-width: 1200px;
-        margin: 0 auto;
-        margin-bottom: 2%;
-}
 
 .blogArticles {
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -30,3 +21,14 @@
         "article1 article2 article3 article4";
         grid-column-gap: 10px;
 }
+
+.info {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+      "contact newsletter cruiseInfo";
+      grid-column-gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      margin-bottom: 2%;
+}
+
