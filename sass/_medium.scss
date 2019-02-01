@@ -16,6 +16,15 @@
         min-width: 200px;
       }
 
+      .cruise {
+
+        padding-left:0; // This is to add padding on the left margin to center the small mobile image
+    }
+
+    .numbertext {
+
+        margin-left: 0; // This is for mobile to read the 1/4 page number
+      }
 
 .info {
     grid-template-columns: 1fr 1fr;

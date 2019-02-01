@@ -422,6 +422,7 @@ nav {
 .cruise {
     width: 100%;
     height: auto;
+    padding-left:5%; // This is to add padding on the left margin to center the small mobile image
 }
 
 /* Slideshow container */
@@ -483,6 +484,7 @@ nav {
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  margin-left: 3%; // This is for mobile to read the 1/4 page number
 }
 
 /* The dots/bullets/indicators */
@@ -768,7 +770,8 @@ background: linear-gradient(to bottom, #C8C8C8, #fff); /* W3C, IE 10+/ Edge, Fir
 
 
 .social {
-    background-color: #989898;
+    // background-color: #989898;
+    background: url(/Users/jameshooper/Desktop/UVU/DGM3740/DGM3740-HTML5-Template/img/diagonal-noise.png) repeat;
     display:flex;
     flex-direction: row;
     justify-content: center;
