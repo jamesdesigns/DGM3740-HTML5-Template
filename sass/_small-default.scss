@@ -770,7 +770,6 @@ background: linear-gradient(to bottom, #C8C8C8, #fff); /* W3C, IE 10+/ Edge, Fir
 
 
 .social {
-    // background-color: #989898;
     background: url(/Users/jameshooper/Desktop/UVU/DGM3740/DGM3740-HTML5-Template/img/diagonal-noise.png) repeat;
     display:flex;
     flex-direction: row;
@@ -782,7 +781,7 @@ background: linear-gradient(to bottom, #C8C8C8, #fff); /* W3C, IE 10+/ Edge, Fir
         font-size: 200%;
     }
     .pad {
-        color: #DCDCDC;
+        color: #C8C8C8;
         padding-right: 10px;
     }
     .pad:hover {
