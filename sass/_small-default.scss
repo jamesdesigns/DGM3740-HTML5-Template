@@ -451,11 +451,11 @@ nav {
     .article1 {
         grid-area: article1;
         background: url(/Users/jameshooper/Desktop/UVU/DGM3740/DGM3740-HTML5-Template/img/luxury.jpg) no-repeat center; 
+        background-size: cover;
         margin-bottom: 10%;
         opacity: .75;
         position: relative;
-        height:300px;
-
+        height: 350px;
         
         a {
             text-decoration: none;
@@ -493,10 +493,11 @@ nav {
     .article2 {
         grid-area: article2;
         background: url(/Users/jameshooper/Desktop/UVU/DGM3740/DGM3740-HTML5-Template/img/food.jpg) no-repeat center;
+        background-size: cover;
         margin-bottom: 10%;
         opacity: .75;
         position: relative;
-        height:300px;
+        height: 350px;
         a {
             text-decoration: none;
         }
@@ -529,10 +530,11 @@ nav {
     .article3 {
         grid-area: article3;
         background: url(/Users/jameshooper/Desktop/UVU/DGM3740/DGM3740-HTML5-Template/img/snorkeler-with-fish.jpg)no-repeat center;
+        background-size: cover;
         margin-bottom: 10%;
         position: relative;
         opacity: .75;
-        height:300px;
+        height: 350px;
         a {
             text-decoration: none;
         }
@@ -566,10 +568,11 @@ nav {
     .article4 {
         grid-area: article4;
         background: url(/Users/jameshooper/Desktop/UVU/DGM3740/DGM3740-HTML5-Template/img/waterfall.jpg) no-repeat center;
+        background-size: cover;
         margin-bottom: 10%;
         opacity: .75;
         position: relative;
-        height:300px;
+        height: 350px;
         a {
             text-decoration: none;
         }
