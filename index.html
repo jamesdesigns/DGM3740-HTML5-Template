@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.min.js"></script>
@@ -30,81 +32,43 @@
         </div>
     </header>
 
-    <nav>
-<!-- Last UPDATED RESPONSIVE MENU -->
-            <div class="topnav" id="myTopNav">
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                            <i class="fa fa-bars"></i>
-                          </a>
-                    <a class="active" href="#home">Home</a>
- 
-                    <a href="#about">Cruises</a>
-
-                    <div class="dropdown">
-                            <button class="dropbtn">Agents 
-                              <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                              <a href="#">Jay Miller</a>
-                              <a href="#">Lori Reynolds</a>
-                            </div>
-                    </div>
-                    <a href="#contact">Book</a>
-          
-                    <div class="search-container">
-                      <form action="/action_page.php">
-                        <input type="text" placeholder="Search.." name="search">
-                        <button type="submit"><i class="fa fa-search"></i></button>
-                      </form>
-
-                    </div>
-               
-
-                  </div>
 
 
-<!-- LASR OF NEW RESPONSIVE MENU -->
+<!-- NEW ----------------------------->
 
-
-
-
-        <!-- <div id="myNav" class="overlay"> -->
-                <!-- Button to close the overlay navigation -->
-                <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>       -->
-                <!-- Overlay content -->
-                <!-- <ul class="overlay-content">
-                  <li><a href="#">HOME</a></li>
-                  <li><a href="#">CRUISES</a></li> -->
-
-                  <!-- <div class="dropdown">
-                        <button class="dropbtn">Agents 
-                          <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                          <a href="#">Tom Johnsom</a>
-                          <a href="#">Kathy Smith</a>
-                        </div>
-                      </div>  -->
-
-                  <!-- <li><a href="#">AGENTS</a></li>
-                  <ul>
-                      <li><a href="#">Robert Jensen</a></li>
-                      <li><a href="#">Kathy Smith</a></li>
-                  </ul>
-                
-                  <li><a href="#">BOOK</a></li>
-                  <li><input id="searching" type="search" placeholder="Search..."></li>
-                </ul>
-              </div> -->
-              <!-- Use any element to open/show the overlay navigation menu -->
-             <!-- <div class="navList"><span class="customMenu" onclick="openNav()">&#9776; Menu</span></div>
-
-
+<nav>
+    <div class="navContainer">
+    <label for="drop" class="toggle"><i class="fa fa-bars" style="font-size:24px"></i> &nbsp;&nbsp;  Menu</label>
+    <input type="checkbox" id="drop" />
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li>
+              <li><a href="#">Cruises</a></li>
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-1" class="toggle">Agents +</label>
+                <a href="#">Agents</a>
+                <input type="checkbox" id="drop-1"/>
+                <ul>
+                    <li><a href="#">Jay Miller</a></li>
+                    <li><a href="#">Lori Reynolds</a></li>
+                </ul> 
+            </li>
+            <li>
+            <li><a href="#">Book</a></li>
+           <!--<li><a href="#">Search</a></li> -->
+          <div class="search-container">
+                  <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit">
+                      <i class="fa fa-search icon" style="font-size:24px"></i>
+                    </button>
+                  </form>
+                </div>
+        </ul>
+     </div>
     </nav>
-    <main>
-    <section>
 
- Slideshow container -->
 <div class="slideshow-container">
 
         <!-- Full-width images with number and caption text -->
@@ -284,8 +248,7 @@
             }
             </script>
             <script type="application/ld+json" src="js/destinations.js"></script>
-
-                <script>
+ <script>
                     function myFunction() {
                       var x = document.getElementById("myTopnav");
                       if (x.className === "topnav") {
@@ -295,6 +258,8 @@
                       }
                     }
                     </script>
+
+
 
 </body>
 </html>
