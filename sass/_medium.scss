@@ -26,7 +26,9 @@
         margin-left: 0; // This is for mobile to read the 1/4 page number
       }
 
-
+      .newArticles h1 {
+        margin-left: 2%;
+    }
 
 .blogArticles {
     grid-template-columns: 1fr 1fr;
