@@ -213,6 +213,13 @@ input[type=search]:focus {
     .dropdown {
         float:none;
     }
+    .dropdown .dropbtn {
+        width: 600px;
+        text-align: left;
+    }
+    .dropdown-content {
+        width: 600px;
+    }
   }
 
 
