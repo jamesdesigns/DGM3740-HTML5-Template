@@ -367,7 +367,8 @@ input[type=search]:focus {
     margin: 0 auto;
     .article1 {
         grid-area: article1;
-        background: url(/Users/jameshooper/Desktop/UVU/DGM3740/DGM3740-HTML5-Template/img/luxury.jpg) no-repeat center; 
+        // background: url(../DGM3740/DGM3740-HTML5-Template/img/luxury.jpg) no-repeat center; 
+        background-image: url("../img/luxury.jpg"); 
         background-size: cover;
         margin-bottom: 10%;
         opacity: .75;
@@ -408,7 +409,7 @@ input[type=search]:focus {
 
     .article2 {
         grid-area: article2;
-        background: url(/Users/jameshooper/Desktop/UVU/DGM3740/DGM3740-HTML5-Template/img/food.jpg) no-repeat center;
+        background-image: url("../img/food.jpg");
         background-size: cover;
         margin-bottom: 10%;
         opacity: .75;
@@ -445,7 +446,7 @@ input[type=search]:focus {
 
     .article3 {
         grid-area: article3;
-        background: url(/Users/jameshooper/Desktop/UVU/DGM3740/DGM3740-HTML5-Template/img/snorkeler-with-fish.jpg)no-repeat center;
+        background-image: url("../img/snorkeler-with-fish.jpg");
         background-size: cover;
         margin-bottom: 10%;
         position: relative;
@@ -482,7 +483,7 @@ input[type=search]:focus {
 
     .article4 {
         grid-area: article4;
-        background: url(/Users/jameshooper/Desktop/UVU/DGM3740/DGM3740-HTML5-Template/img/waterfall.jpg) no-repeat center;
+        background-image: url("../img/waterfall.jpg");
         background-size: cover;
         margin-bottom: 10%;
         opacity: .75;
@@ -586,7 +587,7 @@ footer {
 
 
 .social {
-    background: url(/Users/jameshooper/Desktop/UVU/DGM3740/DGM3740-HTML5-Template/img/brushed_alu_dark.png) repeat;
+    background-image: url("../img/brushed_alu_dark.png");
     display:flex;
     flex-direction: row;
     justify-content: center;
