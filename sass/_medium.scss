@@ -23,13 +23,31 @@
         margin-left: 2%;
     }
 
-.blogArticles {
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-        "article1 article2"
-        "article3 article4";
-        grid-column-gap: 10px;
-}
+    .blogArticles {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 350px 350px;
+        height: 610px;
+        .article1 {
+            margin-bottom: 1%;
+            height: 250px;
+        }
+        .article2 {
+            margin-bottom: 1%;
+            height: 250px;
+        }
+        .article3 {
+            margin-bottom: 1%;
+            height: 250px;
+        }
+        .article4 {
+            margin-bottom: 1%;
+            height: 250px;
+        }
+
+    }
+
+
 
 .info {
     grid-template-columns: 1fr 1fr;
