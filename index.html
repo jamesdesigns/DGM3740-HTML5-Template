@@ -27,9 +27,33 @@
                 </div> 
         </div>
     </header>
+<!-- NAVIGATION -->
+<div class="navwrap">
+    <div class="topnav" id="myTopnav">
+       <a href="#" class="active">HOME</a>
+       <a href="#">CRUISES</a>
+       <a href="#">BOOK</a>
+       <div class="dropdown">
+          <button class="dropbtn">AGENTS
+             &nbsp;&#9662;
+          </button>
+          <div class="dropdown-content">
+             <a href="#">Jay Willardson</a>
+             <a href="#">Lori Reynolds</a>
+          </div>
+       </div>
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+       </a>
+      <div class="search">
+          <input type="search" name="search" id="search" placeholder="Search...">
+          <button class="mySearch"><i class="fa fa-search fa-2x"></i></button>
+       </div>
+    </div>
+ </div>
 
 
-    <section id="myNav">
+<!-- <section class="navwrap">
         <div class="topnav" id="myTopnav">
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
                 <a class="active" href="#home">Home</a>
@@ -43,15 +67,14 @@
                           <a href="#">Jay Willardson</a>
                           <a href="#">Lori Reynolds</a>
                         </div>
-                      </div> 
+                     </div> 
+                
                 <div class="search-container">
-                  <form action="/action_page.php">
-                    <input type="text" placeholder="Search.." name="search">
+                    <input id="search" type="search" placeholder="Search.." name="search">
                     <button type="submit"><i class="fa fa-search"></i></button>
-                  </form>
                 </div>
-              </div>
-        </section>
+                </div>
+        </section> -->
 
 <div class="thing" id="wrapper">
 
@@ -81,51 +104,7 @@
 </div>
 
 
-<!-- <section>
-<div class="slideshow-container">
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 4</div>
-                <picture class="cruise">
-                    <source srcset="img/yacht3-sm.jpg" media="(max-width:35em)">
-                    <source srcset="img/yacht3.jpg">
-                    <img srcset="img/yacht3.jpg" alt="My Default image">
-                </picture>
-        </div>
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 4</div>
-          <picture class="cruise">
-                <source srcset="img/yacht5-sm.jpg" media="(max-width:35em)">
-                <source srcset="img/yacht5.jpg">
-                <img srcset="img/yacht5.jpg" alt="My Default image">
-            </picture>
-        </div>
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 4</div>
-          <picture class="cruise">
-                <source srcset="img/yacht1-sm.jpg" media="(max-width:35em)">    
-                    <source srcset="img/yacht1.jpg">
-                    <img srcset="img/yacht1.jpg" alt="My Default image">
-            </picture>
-        </div>
-        <div class="mySlides fade">
-            <div class="numbertext">4 / 4</div>
-            <picture class="cruise">
-                    <source srcset="img/yacht4-sm.jpg" media="(max-width:35em)">
-                    <source srcset="img/yacht4.jpg">
-                    <img srcset="img/yacht4.jpg" alt="My Default image">
-                </picture>
-        </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      <br>
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span> 
-        <span class="dot" onclick="currentSlide(2)"></span> 
-        <span class="dot" onclick="currentSlide(3)"></span> 
-        <span class="dot" onclick="currentSlide(4)"></span> 
-      </div>
-    </section> -->
+
 
     <section>
     <div class="newArticles"><h1>Recent Blog Articles</h1></div>
@@ -215,8 +194,10 @@
             $('.thing').slick({
                 dots: true,
                 arrows: false,
-                autoplay: true,
-                autoplaySpeed: 4000
+                cssEase: 'ease-out',
+                speed: 300,
+                autoplay: false,
+                // autoplaySpeed: 1000
             });
         });
     </script>
