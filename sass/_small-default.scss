@@ -155,7 +155,7 @@ input {
     // border-top-left-radius: 10px;
     // border-bottom-left-radius: 10px;
     border: 1px solid #ccc;
-    padding: 10px 9px 7px 9px;
+    padding: 10px 9px 6px 9px;
     width: 75px;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -171,8 +171,6 @@ input {
     background-color:#C8C8C8;
     color: #484848;
     margin-right: 10px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
   } 
 /* Removes text input glow */
 textarea, select, input, button { outline: none; }
@@ -193,13 +191,14 @@ textarea, select, input, button { outline: none; }
 }
   .search {
     margin-bottom: 8px;
+    margin-right: 8%;
+    margin-right: 10%;
   }
   
   #search {
-    border-radius: 5px;
     padding: 10px 9px 7px 9px;
     border: 1px solid #ccc;
-    padding: 9px;
+    border-radius: unset;
     width: 16rem;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -215,8 +214,6 @@ textarea, select, input, button { outline: none; }
     background-color:#C8C8C8;
     color: #484848;
     margin-right: 10px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
   } 
 }
 
